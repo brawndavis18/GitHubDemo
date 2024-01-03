@@ -2,4 +2,30 @@ package NumberOperator;
 
 public class NumberOperatorDemo {
 
+    public static void main(String[] args) {
+     
+     
+    }
+
+    public void performOperations(double operand1, double operand2) {
+        
+        double sum = operand1 + operand2;
+        System.out.println("Sum: " + sum);
+
+       
+        double difference = operand1 - operand2;
+        System.out.println("Difference: " + difference);
+
+        
+        double product = operand1 * operand2;
+        System.out.println("Product: " + product);
+
+        
+        if (operand2 != 0) {
+            double quotient = operand1 / operand2;
+            System.out.println("Quotient: " + quotient);
+        } else {
+            System.out.println("Cannot divide by zero.");
+        }
+    }
 }
