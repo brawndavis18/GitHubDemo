@@ -11,5 +11,10 @@ public static void main(String[] args) {
         System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();
 
+// might have to tweak the code 
+ double sum = num1 + num2;
+        double difference = num1 - num2;
+        double product = num1 * num2;
+        double quotient = num1 / num2;
 
 }
