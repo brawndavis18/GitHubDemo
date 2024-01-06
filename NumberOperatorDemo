@@ -15,21 +15,25 @@ public class NumberOperatorDemo {
         calculator.division(num1, num2);
     }
 
+// Method for addition
     public void addition(double operand1, double operand2) {
         double sum = operand1 + operand2;
         System.out.println("Sum: " + sum);
     }
 
+// Method for subtraction
     public void subtraction(double operand1, double operand2) {
         double difference = operand1 - operand2;
         System.out.println("Difference: " + difference);
     }
 
+// Method for multiplication
     public void multiplication(double operand1, double operand2) {
         double product = operand1 * operand2;
         System.out.println("Product: " + product);
     }
 
+// Method for division
     public void division(double operand1, double operand2) {
         if (operand2 != 0) {
             double quotient = operand1 / operand2;
